@@ -1,0 +1,507 @@
+MKLROOT=/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mkl
+CPLUS_INCLUDE_PATH=/BIGDATA1/USER/BIGDATA1/jyy/build/libunwind-1.3.1/include64:/BIGDATA1/USER/BIGDATA1/jyy/build/libunwind-1.3.1/include:/BIGDATA1/USER/BIGDATA1/jyy/build/papi-5.2.0/include64:/BIGDATA1/USER/BIGDATA1/jyy/build/papi-5.2.0/include:/BIGDATA1/USER/BIGDATA1/jyy/build/llvm3.3-gcc4.8.5/include64:/BIGDATA1/USER/BIGDATA1/jyy/build/llvm3.3-gcc4.8.5/include:/BIGDATA1/USER/BIGDATA1/jyy/build/gcc-4.8.5/include64:/BIGDATA1/USER/BIGDATA1/jyy/build/gcc-4.8.5/include:/BIGDATA1/USER/include::/BIGDATA1/USER/include:/BIGDATA1/USER/.local/include:/BIGDATA1/USER/BIGDATA1/jyy/build/gcc-4.8.5/lib/gcc/x86_64-unknown-linux-gnu/4.8.5/plugin/include
+MANPATH=/BIGDATA1/app/gmp/4.2.4/share/man:/BIGDATA1/app/MPI/mpich/3.2.1-icc-14.0.2-dynamic/share/man:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/man/en_US:
+HOSTNAME=ln42
+_LMFILES__modshare=/BIGDATA1/app/modulefiles/gmp/4.2.4:1:/BIGDATA1/app/modulefiles/MPI/mpich/3.2.1-icc-14.0.2-dynamic:1:/BIGDATA1/app/modulefiles/intelcompiler/14.0.2:1:/BIGDATA1/app/modulefiles/intelcompiler/mkl-14:1
+MODULEPATH_modshare=/BIGDATA1/app/modules/4.1.0-gcc-4.8.5/modulefiles:1
+IPPROOT=/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/ipp
+INTEL_LICENSE_FILE=/BIGDATA1/app/intelcompiler/licenses
+GLEX_USE_ZC_RNDV=1
+SHELL=/bin/bash
+TERM=xterm-256color
+MODULES_CMD=/BIGDATA1/app/modules/4.1.0-gcc-4.8.5/libexec/modulecmd.tcl
+HISTSIZE=1000000
+SSH_CLIENT=172.17.70.58 55317 5566
+GDBSERVER_MIC=/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/debugger/gdb/target/mic/bin/gdbserver
+LIBRARY_PATH=/BIGDATA1/USER/BIGDATA1/jyy/build/libunwind-1.3.1/lib64:/BIGDATA1/USER/BIGDATA1/jyy/build/libunwind-1.3.1/lib:/BIGDATA1/USER/BIGDATA1/jyy/build/papi-5.2.0/lib64:/BIGDATA1/USER/BIGDATA1/jyy/build/papi-5.2.0/lib:/BIGDATA1/USER/BIGDATA1/jyy/build/llvm3.3-gcc4.8.5/lib64:/BIGDATA1/USER/BIGDATA1/jyy/build/llvm3.3-gcc4.8.5/lib:/BIGDATA1/USER/BIGDATA1/jyy/build/gcc-4.8.5/lib64:/BIGDATA1/USER/BIGDATA1/jyy/build/gcc-4.8.5/lib:/BIGDATA1/app/gmp/4.2.4/lib:/BIGDATA1/app/gmp/4.2.4/lib64:/BIGDATA1/USER/lib:/BIGDATA1/USER/lib64:/BIGDATA1/app/MPI/mpich/3.2.1-icc-14.0.2-dynamic/lib:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/compiler/lib/intel64:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/ipp/lib/intel64:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mkl/lib/intel64:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/tbb/lib/intel64/gcc4.4:/BIGDATA1/USER/.local/lib/:/BIGDATA1/USER/.local/lib64/
+LIBRARY_PATH_modshare=/BIGDATA1/app/gmp/4.2.4/lib64:1:/BIGDATA1/USER/.local/lib/:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mkl/lib/intel64:2:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/ipp/lib/intel64:1:/BIGDATA1/USER/lib:1:/BIGDATA1/app/gmp/4.2.4/lib:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/tbb/lib/intel64/gcc4.4:1:/BIGDATA1/USER/.local/lib64/:1:/BIGDATA1/app/MPI/mpich/3.2.1-icc-14.0.2-dynamic/lib:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/compiler/lib/intel64:2:/BIGDATA1/USER/lib64:1
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+SSH_TTY=/dev/pts/73
+MIC_LD_LIBRARY_PATH=/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/compiler/lib/mic:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mpirt/lib/mic:/opt/intel/mic/coi/device-linux-release/lib:/opt/intel/mic/myo/lib:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mkl/lib/mic:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/tbb/lib/mic
+GLEX_ER_EP_MEM_SIZE=0x400000
+MIC_LD_LIBRARY_PATH_modshare=/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/compiler/lib/mic:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mpirt/lib/mic:1:/opt/intel/mic/coi/device-linux-release/lib:1:/opt/intel/mic/myo/lib:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mkl/lib/mic:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/tbb/lib/mic:1
+QT_GRAPHICSSYSTEM_CHECKED=1
+USER=USER
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+LD_LIBRARY_PATH=/BIGDATA1/USER/BIGDATA1/jyy/build/gcc-4.8.5/libexec/gcc/x86_64-unknown-linux-gnu/4.8.5:/BIGDATA1/USER/BIGDATA1/jyy/IRstruct/irstruct-with-all-leafnode:/BIGDATA1/USER/BIGDATA1/jyy/build/libunwind-1.3.1/lib64:/BIGDATA1/USER/BIGDATA1/jyy/build/libunwind-1.3.1/lib:/BIGDATA1/USER/BIGDATA1/jyy/build/papi-5.2.0/lib64:/BIGDATA1/USER/BIGDATA1/jyy/build/papi-5.2.0/lib:/BIGDATA1/USER/BIGDATA1/jyy/build/llvm3.3-gcc4.8.5/lib64:/BIGDATA1/USER/BIGDATA1/jyy/build/llvm3.3-gcc4.8.5/lib:/BIGDATA1/USER/BIGDATA1/jyy/build/gcc-4.8.5/lib64:/BIGDATA1/USER/BIGDATA1/jyy/build/gcc-4.8.5/lib:/BIGDATA1/app/gmp/4.2.4/lib:/BIGDATA1/app/gmp/4.2.4/lib64:/BIGDATA/USER/ybw/local/lib:/BIGDATA1/app/MPI/mpich/3.2.1-icc-14.0.2-dynamic/lib:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/compiler/lib/intel64:/opt/intel/mic/coi/host-linux-release/lib:/opt/intel/mic/myo/lib:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mpirt/lib/intel64:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/ipp/lib/intel64:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mkl/lib/intel64:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/tbb/lib/intel64/gcc4.4:/BIGDATA1/USER/lib:/BIGDATA1/USER/lib64:/BIGDATA1/USER/.local/lib/:/BIGDATA1/USER/.local/lib64/:/usr/lib:/usr/lib64:/usr/lib:/usr/lib64:/usr/lib:/usr/lib64:/usr/lib:/usr/lib64:/BIGDATA1/app/gmp/4.2.4/lib64:/BIGDATA1/app/mpc/0.8.1/lib/:/BIGDATA1/app/mpfr/2.4.2/lib64
+INCLUDE_modshare=/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mkl/include:2:/BIGDATA1/app/gmp/4.2.4/include:1:/BIGDATA1/app/MPI/mpich/3.2.1-icc-14.0.2-dynamic/include:1
+TCL_LIBRARY=/BIGDATA1/app/tcl/8.6.8-gcc-4.8.5/lib
+ENV=/BIGDATA1/app/modules/4.1.0-gcc-4.8.5/init/profile.sh
+MIC_LIBRARY_PATH=/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/tbb/lib/mic
+CPATH=/BIGDATA1/app/gmp/4.2.4/include:/BIGDATA1/app/MPI/mpich/3.2.1-icc-14.0.2-dynamic/include:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/ipp/include:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mkl/include:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/tbb/include
+GLEX_EP_TYPE=1
+NLSPATH=/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/compiler/lib/intel64/locale/%l_%t/%N:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/ipp/lib/intel64/locale/%l_%t/%N:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mkl/lib/intel64/locale/%l_%t/%N:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/debugger/gdb/intel64_mic/py26/share/locale/%l_%t/%N:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/debugger/gdb/intel64/py26/share/locale/%l_%t/%N:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/debugger/intel64/locale/%l_%t/%N
+GLEX_EP_MEM_SIZE=0x4000000
+PATH=/BIGDATA1/USER/BIGDATA1/jyy/build/libunwind-1.3.1/bin64:/BIGDATA1/USER/BIGDATA1/jyy/build/libunwind-1.3.1/bin:/BIGDATA1/USER/BIGDATA1/jyy/build/papi-5.2.0/bin64:/BIGDATA1/USER/BIGDATA1/jyy/build/papi-5.2.0/bin:/BIGDATA1/USER/BIGDATA1/jyy/build/llvm3.3-gcc4.8.5/bin64:/BIGDATA1/USER/BIGDATA1/jyy/build/llvm3.3-gcc4.8.5/bin:/BIGDATA1/USER/BIGDATA1/jyy/build/gcc-4.8.5/bin64:/BIGDATA1/USER/BIGDATA1/jyy/build/gcc-4.8.5/bin:/BIGDATA1/app/gmp/4.2.4/bin:/BIGDATA/USER/ybw/local/bin:/usr/lib64/qt-3.3/bin:/BIGDATA1/app/MPI/mpich/3.2.1-icc-14.0.2-dynamic/bin:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/compiler/bin/intel64:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mpirt/bin/intel64:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/debugger/gdb/intel64_mic/py26/bin:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/debugger/gdb/intel64/py26/bin:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/bin/intel64:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/bin/intel64_mic:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/debugger/gui/intel64:/BIGDATA1/app/modules/4.1.0-gcc-4.8.5/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/HOME/USER/txc/WORKSPACE/XXX_PROJECT/tprof_line/:/BIGDATA1/USER/bin:/BIGDATA1/USER/bin
+MAIL=/var/spool/mail/USER
+GTEST_ROOT=/BIGDATA1/USER/.local/
+_=/usr/bin/env
+SALLOC_EXCLUSIVE=1
+TBBROOT=/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/tbb
+C_INCLUDE_PATH=/BIGDATA1/USER/BIGDATA1/jyy/build/libunwind-1.3.1/include64:/BIGDATA1/USER/BIGDATA1/jyy/build/libunwind-1.3.1/include:/BIGDATA1/USER/BIGDATA1/jyy/build/papi-5.2.0/include64:/BIGDATA1/USER/BIGDATA1/jyy/build/papi-5.2.0/include:/BIGDATA1/USER/BIGDATA1/jyy/build/llvm3.3-gcc4.8.5/include64:/BIGDATA1/USER/BIGDATA1/jyy/build/llvm3.3-gcc4.8.5/include:/BIGDATA1/USER/BIGDATA1/jyy/build/gcc-4.8.5/include64:/BIGDATA1/USER/BIGDATA1/jyy/build/gcc-4.8.5/include::/BIGDATA1/USER/include:/BIGDATA1/USER/.local/include:/BIGDATA1/USER/BIGDATA1/jyy/build/gcc-4.8.5/lib/gcc/x86_64-unknown-linux-gnu/4.8.5/plugin/include
+PWD=/BIGDATA1/USER/BIGDATA1/jyy
+SLURM_STEP_KILLED_MSG_NODE_ID=0
+_LMFILES_=/BIGDATA1/app/modulefiles/intelcompiler/14.0.2:/BIGDATA1/app/modulefiles/intelcompiler/mkl-14:/BIGDATA1/app/modulefiles/MPI/mpich/3.2.1-icc-14.0.2-dynamic:/BIGDATA1/app/modulefiles/gmp/4.2.4
+GLEX_EAGER_MAX_MSG_SIZE=32768
+IDB_HOME=/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/bin/intel64
+NSS_YHPC_GROUP=AAAALzAtAhRD/0+Pn33QabkmIDw0INl52is8gwIVAL/yNLDZdqytyQgIiJ2HBCIGzjmLMzp0aHVfd2djaGVuOjIxMzk6dGlhbmhlMmhfYmlnZGF0YTo4MTYxOnRpYW5oZTJzX2RnbToxMDA4MA==
+LANG=C
+GDB_CROSS=/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/debugger/gdb/intel64_mic/py26/bin/gdb-mic
+GLEX_SR_RING_UNIT_SIZE=32768
+NSS_YHPC_PASSWD=AAAALjAsAhR1OWb+RSoId51pzGgBtTo2TzabfwIUBGnyvl8/YEb6ixpw1zgAbt5TAMp0aHVfd2djaGVuXzE6eDoyMTE5OjIxMzk6dGh1X3dnY2hlbl8xOi9CSUdEQVRBMS90aHVfd2djaGVuXzE6L2Jpbi9iYXNo
+MODULEPATH=/BIGDATA1/app/modulefiles
+INTEL_LICENSE_FILE_modshare=/BIGDATA1/app/intelcompiler/licenses:1
+LOADEDMODULES=intelcompiler/14.0.2:intelcompiler/mkl-14:MPI/mpich/3.2.1-icc-14.0.2-dynamic:gmp/4.2.4
+MKLROOT_modshare=/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mkl:1
+KDEDIRS=/usr
+CPATH_modshare=/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mkl/include:2:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/tbb/include:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/ipp/include:1:/BIGDATA1/app/gmp/4.2.4/include:1:/BIGDATA1/app/MPI/mpich/3.2.1-icc-14.0.2-dynamic/include:1
+SBATCH_EXCLUSIVE=1
+SLURM_DISTRIBUTION=block:block
+HISTCONTROL=ignoreboth
+SLURM_EXCLUSIVE=1
+HOME=/BIGDATA1/USER
+SHLVL=2
+PATH_modshare=/BIGDATA1/app/MPI/mpich/3.2.1-icc-14.0.2-dynamic/bin:1:/BIGDATA1/app/modules/4.1.0-gcc-4.8.5/bin:1:/usr/bin:1:/usr/local/bin:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/bin/intel64_mic:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/debugger/gdb/intel64_mic/py26/bin:1:/BIGDATA1/app/gmp/4.2.4/bin:1:/HOME/USER/txc/WORKSPACE/XXX_PROJECT/tprof_line/:1:/opt/ibutils/bin:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/compiler/bin/intel64:1:/BIGDATA/USER/ybw/local/bin:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/debugger/gui/intel64:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/bin/intel64:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/debugger/gdb/intel64/py26/bin:1:/usr/sbin:1:/usr/local/sbin:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mpirt/bin/intel64:1:/usr/lib64/qt-3.3/bin:1:/BIGDATA1/USER/bin:1
+GLEX_USE_RDMA_WRITE_ONLY=0
+MANPATH_modshare=:1:/BIGDATA1/app/gmp/4.2.4/share/man:1:/BIGDATA1/app/MPI/mpich/3.2.1-icc-14.0.2-dynamic/share/man:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/man/en_US:2
+YH_PART=MIC
+LAST_CMD= 1109  [2020-04-23 13:24:10] [172.17.70.58] ls
+BASH_ENV=/BIGDATA1/app/modules/4.1.0-gcc-4.8.5/init/bash
+NLSPATH_modshare=/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/compiler/lib/intel64/locale/%l_%t/%N:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/debugger/intel64/locale/%l_%t/%N:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mkl/lib/intel64/locale/%l_%t/%N:2:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/ipp/lib/intel64/locale/%l_%t/%N:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/debugger/gdb/intel64_mic/py26/share/locale/%l_%t/%N:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/debugger/gdb/intel64/py26/share/locale/%l_%t/%N:1
+LOGNAME=USER
+GLEX_ER_QUEUE_UNIT_SIZE=32768
+OLD_PWD=/BIGDATA1/USER/BIGDATA1/jyy
+LD_LIBRARY_PATH_modshare=/BIGDATA1/app/gmp/4.2.4/lib:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/compiler/lib/intel64:2:/BIGDATA1/USER/.local/lib/:1:/BIGDATA1/USER/lib64:1:/BIGDATA/USER/ybw/local/lib:1:/opt/intel/mic/myo/lib:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/ipp/lib/intel64:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/tbb/lib/intel64/gcc4.4:1:/BIGDATA1/app/gmp/4.2.4/lib64:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mpirt/lib/intel64:1:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mkl/lib/intel64:2:/opt/intel/mic/coi/host-linux-release/lib:1:/BIGDATA1/USER/lib:1:/BIGDATA1/app/MPI/mpich/3.2.1-icc-14.0.2-dynamic/lib:1:/BIGDATA1/USER/.local/lib64/:1
+QTLIB=/usr/lib64/qt-3.3/lib
+SSH_CONNECTION=172.17.70.58 55317 172.16.22.11 5566
+MIC_LIBRARY_PATH_modshare=/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/tbb/lib/mic:1
+MODULESHOME=/BIGDATA1/app/modules/4.1.0-gcc-4.8.5
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LOADEDMODULES_modshare=intelcompiler/mkl-14:1:gmp/4.2.4:1:MPI/mpich/3.2.1-icc-14.0.2-dynamic:1:intelcompiler/14.0.2:1
+PROMPT_COMMAND=
+if [ -z "$OLD_PWD" ];then 
+    export OLD_PWD=$PWD; 
+fi; 
+if [ ! -z "$LAST_CMD" ] && [ "$(history 1)" != "$LAST_CMD" ]; then 
+    logger -t `whoami`_shell_cmd "[$OLD_PWD]$(history 1)"; 
+fi; 
+export LAST_CMD="$(history 1)"; 
+export OLD_PWD=$PWD;
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+INCLUDE=/BIGDATA1/USER/BIGDATA1/jyy/build/libunwind-1.3.1/include64:/BIGDATA1/USER/BIGDATA1/jyy/build/libunwind-1.3.1/include:/BIGDATA1/USER/BIGDATA1/jyy/build/papi-5.2.0/include64:/BIGDATA1/USER/BIGDATA1/jyy/build/papi-5.2.0/include:/BIGDATA1/USER/BIGDATA1/jyy/build/llvm3.3-gcc4.8.5/include64:/BIGDATA1/USER/BIGDATA1/jyy/build/llvm3.3-gcc4.8.5/include:/BIGDATA1/USER/BIGDATA1/jyy/build/gcc-4.8.5/include64:/BIGDATA1/USER/BIGDATA1/jyy/build/gcc-4.8.5/include:/BIGDATA1/app/gmp/4.2.4/include:/BIGDATA1/app/MPI/mpich/3.2.1-icc-14.0.2-dynamic/include:/BIGDATA1/app/intelcompiler/14.0.2/composer_xe_2013_sp1.2.144/mkl/include:/BIGDATA1/USER/BIGDATA1/jyy/build/gcc-4.8.5/lib/gcc/x86_64-unknown-linux-gnu/4.8.5/plugin/include
+HISTTIMEFORMAT=[%Y-%m-%d %H:%M:%S] [172.17.70.58] 
+SLURM_SRUN_REDUCE_TASK_EXIT_MSG=1
+BASH_FUNC_module()=() {  _moduleraw $* 2>&1
+}
+BASH_FUNC_switchml()=() {  typeset swfound=1;
+ if [ "$MODULES_USE_COMPAT_VERSION" = '1' ]; then
+ typeset swname='main';
+ if [ -e /BIGDATA1/app/modules/4.1.0-gcc-4.8.5/libexec/modulecmd.tcl ]; then
+ typeset swfound=0;
+ unset MODULES_USE_COMPAT_VERSION;
+ fi;
+ else
+ typeset swname='compatibility';
+ if [ -e /BIGDATA1/app/modules/4.1.0-gcc-4.8.5/libexec/modulecmd-compat ]; then
+ typeset swfound=0;
+ MODULES_USE_COMPAT_VERSION=1;
+ export MODULES_USE_COMPAT_VERSION;
+ fi;
+ fi;
+ if [ $swfound -eq 0 ]; then
+ echo "Switching to Modules $swname version";
+ source /BIGDATA1/app/modules/4.1.0-gcc-4.8.5/init/bash;
+ else
+ echo "Cannot switch to Modules $swname version, command not found";
+ return 1;
+ fi
+}
+BASH_FUNC__moduleraw()=() {  if [ "$MODULES_SILENT_SHELL_DEBUG" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ typeset _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ typeset _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ typeset _mlshdbg='x'
+ ;;
+ *)
+ typeset _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ typeset _mlre='';
+ typeset _mlv;
+ typeset _mlrv;
+ if [ -n "${IFS+x}" ]; then
+ typeset _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre}${_mlv}='`eval 'echo ${'$_mlrv'}'`' ";
+ fi;
+ done;
+ if [ -n "$_mlre" ]; then
+ _mlre="eval ${_mlre}";
+ fi;
+ eval `${_mlre}/BIGDATA1/app/tcl/8.6.8-gcc-4.8.5/bin/tclsh /BIGDATA1/app/modules/4.1.0-gcc-4.8.5/libexec/modulecmd.tcl bash $*`;
+ typeset _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ if [ -n "$_mlshdbg" ]; then
+ set -$_mlshdbg;
+ unset _mlshdbg;
+ fi;
+ return $_mlstatus
+}
+Linux ln42 3.10.0-514.el7.x86_64 #1 SMP Wed Oct 19 11:24:13 EDT 2016 x86_64 x86_64 x86_64 GNU/Linux
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                64
+On-line CPU(s) list:   0-63
+Thread(s) per core:    2
+Core(s) per socket:    8
+Socket(s):             4
+NUMA node(s):          4
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-4640 0 @ 2.40GHz
+Stepping:              7
+CPU MHz:               1361.812
+BogoMIPS:              4809.69
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-7,32-39
+NUMA node1 CPU(s):     8-15,40-47
+NUMA node2 CPU(s):     16-23,48-55
+NUMA node3 CPU(s):     24-31,56-63
+MemTotal:       123574132 kB
+MemFree:        51971264 kB
+MemAvailable:   107188108 kB
+Buffers:            7360 kB
+Cached:         54598800 kB
+SwapCached:            0 kB
+Active:          2989280 kB
+Inactive:       53032340 kB
+Active(anon):    1044392 kB
+Inactive(anon):   398664 kB
+Active(file):    1944888 kB
+Inactive(file): 52633676 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       4194300 kB
+SwapFree:        4194300 kB
+Dirty:              1448 kB
+Writeback:           272 kB
+AnonPages:       1417324 kB
+Mapped:           141152 kB
+Shmem:             26928 kB
+Slab:           13604352 kB
+SReclaimable:    1283304 kB
+SUnreclaim:     12321048 kB
+KernelStack:       41904 kB
+PageTables:       108176 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    65981364 kB
+Committed_AS:    4963132 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      849064 kB
+VmallocChunk:   34257846568 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    337920 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      465200 kB
+DirectMap2M:    28868608 kB
+DirectMap1G:    98566144 kB
+NAME          MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda             8:0    0  1.1T  0 disk 
+|-sda1          8:1    0    1G  0 part /boot
+`-sda2          8:2    0  1.1T  0 part 
+  |-rhel-swap 253:0    0    4G  0 lvm  [SWAP]
+  |-rhel-home 253:1    0   50G  0 lvm  /home
+  `-rhel-root 253:2    0    1T  0 lvm  /
+sr0            11:0    1 1024M  0 rom  
+loop0           7:0    0  3.5G  0 loop /mnt
+loop1           7:1    0        1 loop 
+[0:0:0:0]    disk    SEAGATE  ST9600205SS      B002  -               -
+[0:0:1:0]    disk    SEAGATE  ST9600205SS      B002  -               -
+[0:0:2:0]    disk    SEAGATE  ST9600205SS      B002  -               -
+[0:0:3:0]    disk    SEAGATE  ST9600205SS      B002  -               -
+[0:1:0:0]    disk    LSI      Logical Volume   3000  /dev/sda   1.19TB
+[5:0:0:0]    cd/dvd  MATSHITA DVD-RAM UJ8D1    8.10  /dev/sr0        -
++ '[' '' = 1 ']'
++ typeset _mlre=
++ typeset _mlv
++ typeset _mlrv
++ '[' -n x ']'
++ typeset '_mlIFS= 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /BIGDATA1/app/tcl/8.6.8-gcc-4.8.5/bin/tclsh /BIGDATA1/app/modules/4.1.0-gcc-4.8.5/libexec/modulecmd.tcl bash list
+Currently Loaded Modulefiles:
+ 1) intelcompiler/14.0.2   2) intelcompiler/mkl-14   3) MPI/mpich/3.2.1-icc-14.0.2-dynamic   4) gmp/4.2.4  
++ eval
++ typeset _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ '[' -n '' ']'
++ return 0
+00:00.0 Host bridge: Intel Corporation Xeon E5/Core i7 DMI2 (rev 07)
+00:01.0 PCI bridge: Intel Corporation Xeon E5/Core i7 IIO PCI Express Root Port 1a (rev 07)
+00:02.0 PCI bridge: Intel Corporation Xeon E5/Core i7 IIO PCI Express Root Port 2a (rev 07)
+00:02.2 PCI bridge: Intel Corporation Xeon E5/Core i7 IIO PCI Express Root Port 2c (rev 07)
+00:03.0 PCI bridge: Intel Corporation Xeon E5/Core i7 IIO PCI Express Root Port 3a in PCI Express Mode (rev 07)
+00:05.0 System peripheral: Intel Corporation Xeon E5/Core i7 Address Map, VTd_Misc, System Management (rev 07)
+00:05.2 System peripheral: Intel Corporation Xeon E5/Core i7 Control Status and Global Errors (rev 07)
+00:05.4 PIC: Intel Corporation Xeon E5/Core i7 I/O APIC (rev 07)
+00:11.0 PCI bridge: Intel Corporation C600/X79 series chipset PCI Express Virtual Root Port (rev 06)
+00:16.0 Communication controller: Intel Corporation C600/X79 series chipset MEI Controller #1 (rev 05)
+00:16.1 Communication controller: Intel Corporation C600/X79 series chipset MEI Controller #2 (rev 05)
+00:1a.0 USB controller: Intel Corporation C600/X79 series chipset USB2 Enhanced Host Controller #2 (rev 06)
+00:1c.0 PCI bridge: Intel Corporation C600/X79 series chipset PCI Express Root Port 1 (rev b6)
+00:1c.4 PCI bridge: Intel Corporation C600/X79 series chipset PCI Express Root Port 5 (rev b6)
+00:1c.7 PCI bridge: Intel Corporation C600/X79 series chipset PCI Express Root Port 8 (rev b6)
+00:1d.0 USB controller: Intel Corporation C600/X79 series chipset USB2 Enhanced Host Controller #1 (rev 06)
+00:1e.0 PCI bridge: Intel Corporation 82801 PCI Bridge (rev a6)
+00:1f.0 ISA bridge: Intel Corporation C600/X79 series chipset LPC Controller (rev 06)
+00:1f.2 SATA controller: Intel Corporation C600/X79 series chipset 6-Port SATA AHCI Controller (rev 06)
+00:1f.3 SMBus: Intel Corporation C600/X79 series chipset SMBus Host Controller (rev 06)
+00:1f.6 Signal processing controller: Intel Corporation C600/X79 series chipset Thermal Management Controller (rev 06)
+01:00.0 Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)
+04:00.0 I2O: FarSite Communications Ltd Device 6666 (rev 03)
+06:00.0 Ethernet controller: Intel Corporation I350 Gigabit Network Connection (rev 01)
+06:00.1 Ethernet controller: Intel Corporation I350 Gigabit Network Connection (rev 01)
+06:00.2 Ethernet controller: Intel Corporation I350 Gigabit Network Connection (rev 01)
+06:00.3 Ethernet controller: Intel Corporation I350 Gigabit Network Connection (rev 01)
+08:00.0 USB controller: Texas Instruments TUSB73x0 SuperSpeed USB 3.0 xHCI Host Controller (rev 02)
+09:00.0 VGA compatible controller: Matrox Electronics Systems Ltd. MGA G200e [Pilot] ServerEngines (SEP1)
+3f:08.0 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link 0 (rev 07)
+3f:08.3 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 0 (rev 07)
+3f:08.4 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 0 (rev 07)
+3f:09.0 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link 1 (rev 07)
+3f:09.3 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 1 (rev 07)
+3f:09.4 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 1 (rev 07)
+3f:0a.0 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 0 (rev 07)
+3f:0a.1 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 1 (rev 07)
+3f:0a.2 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 2 (rev 07)
+3f:0a.3 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 3 (rev 07)
+3f:0b.0 System peripheral: Intel Corporation Xeon E5/Core i7 Interrupt Control Registers (rev 07)
+3f:0b.3 System peripheral: Intel Corporation Xeon E5/Core i7 Semaphore and Scratchpad Configuration Registers (rev 07)
+3f:0c.0 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+3f:0c.1 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+3f:0c.2 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+3f:0c.3 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+3f:0c.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller System Address Decoder 0 (rev 07)
+3f:0c.7 System peripheral: Intel Corporation Xeon E5/Core i7 System Address Decoder (rev 07)
+3f:0d.0 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+3f:0d.1 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+3f:0d.2 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+3f:0d.3 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+3f:0d.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller System Address Decoder 1 (rev 07)
+3f:0e.0 System peripheral: Intel Corporation Xeon E5/Core i7 Processor Home Agent (rev 07)
+3f:0e.1 Performance counters: Intel Corporation Xeon E5/Core i7 Processor Home Agent Performance Monitoring (rev 07)
+3f:0f.0 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Registers (rev 07)
+3f:0f.1 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller RAS Registers (rev 07)
+3f:0f.2 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 0 (rev 07)
+3f:0f.3 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 1 (rev 07)
+3f:0f.4 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 2 (rev 07)
+3f:0f.5 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 3 (rev 07)
+3f:0f.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 4 (rev 07)
+3f:10.0 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 0 (rev 07)
+3f:10.1 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 1 (rev 07)
+3f:10.2 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 0 (rev 07)
+3f:10.3 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 1 (rev 07)
+3f:10.4 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 2 (rev 07)
+3f:10.5 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 3 (rev 07)
+3f:10.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 2 (rev 07)
+3f:10.7 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 3 (rev 07)
+3f:11.0 System peripheral: Intel Corporation Xeon E5/Core i7 DDRIO (rev 07)
+3f:13.0 System peripheral: Intel Corporation Xeon E5/Core i7 R2PCIe (rev 07)
+3f:13.1 Performance counters: Intel Corporation Xeon E5/Core i7 Ring to PCI Express Performance Monitor (rev 07)
+3f:13.4 Performance counters: Intel Corporation Xeon E5/Core i7 QuickPath Interconnect Agent Ring Registers (rev 07)
+3f:13.5 Performance counters: Intel Corporation Xeon E5/Core i7 Ring to QuickPath Interconnect Link 0 Performance Monitor (rev 07)
+3f:13.6 System peripheral: Intel Corporation Xeon E5/Core i7 Ring to QuickPath Interconnect Link 1 Performance Monitor (rev 07)
+40:01.0 PCI bridge: Intel Corporation Xeon E5/Core i7 IIO PCI Express Root Port 1a (rev 07)
+40:02.0 PCI bridge: Intel Corporation Xeon E5/Core i7 IIO PCI Express Root Port 2a (rev 07)
+40:03.0 PCI bridge: Intel Corporation Xeon E5/Core i7 IIO PCI Express Root Port 3a in PCI Express Mode (rev 07)
+40:03.2 PCI bridge: Intel Corporation Xeon E5/Core i7 IIO PCI Express Root Port 3c (rev 07)
+40:05.0 System peripheral: Intel Corporation Xeon E5/Core i7 Address Map, VTd_Misc, System Management (rev 07)
+40:05.2 System peripheral: Intel Corporation Xeon E5/Core i7 Control Status and Global Errors (rev 07)
+40:05.4 PIC: Intel Corporation Xeon E5/Core i7 I/O APIC (rev 07)
+42:00.0 InfiniBand: Mellanox Technologies MT26428 [ConnectX VPI PCIe 2.0 5GT/s - IB QDR / 10GigE] (rev b0)
+7f:08.0 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link 0 (rev 07)
+7f:08.3 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 0 (rev 07)
+7f:08.4 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 0 (rev 07)
+7f:09.0 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link 1 (rev 07)
+7f:09.3 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 1 (rev 07)
+7f:09.4 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 1 (rev 07)
+7f:0a.0 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 0 (rev 07)
+7f:0a.1 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 1 (rev 07)
+7f:0a.2 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 2 (rev 07)
+7f:0a.3 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 3 (rev 07)
+7f:0b.0 System peripheral: Intel Corporation Xeon E5/Core i7 Interrupt Control Registers (rev 07)
+7f:0b.3 System peripheral: Intel Corporation Xeon E5/Core i7 Semaphore and Scratchpad Configuration Registers (rev 07)
+7f:0c.0 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+7f:0c.1 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+7f:0c.2 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+7f:0c.3 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+7f:0c.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller System Address Decoder 0 (rev 07)
+7f:0c.7 System peripheral: Intel Corporation Xeon E5/Core i7 System Address Decoder (rev 07)
+7f:0d.0 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+7f:0d.1 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+7f:0d.2 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+7f:0d.3 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+7f:0d.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller System Address Decoder 1 (rev 07)
+7f:0e.0 System peripheral: Intel Corporation Xeon E5/Core i7 Processor Home Agent (rev 07)
+7f:0e.1 Performance counters: Intel Corporation Xeon E5/Core i7 Processor Home Agent Performance Monitoring (rev 07)
+7f:0f.0 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Registers (rev 07)
+7f:0f.1 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller RAS Registers (rev 07)
+7f:0f.2 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 0 (rev 07)
+7f:0f.3 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 1 (rev 07)
+7f:0f.4 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 2 (rev 07)
+7f:0f.5 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 3 (rev 07)
+7f:0f.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 4 (rev 07)
+7f:10.0 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 0 (rev 07)
+7f:10.1 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 1 (rev 07)
+7f:10.2 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 0 (rev 07)
+7f:10.3 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 1 (rev 07)
+7f:10.4 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 2 (rev 07)
+7f:10.5 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 3 (rev 07)
+7f:10.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 2 (rev 07)
+7f:10.7 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 3 (rev 07)
+7f:11.0 System peripheral: Intel Corporation Xeon E5/Core i7 DDRIO (rev 07)
+7f:13.0 System peripheral: Intel Corporation Xeon E5/Core i7 R2PCIe (rev 07)
+7f:13.1 Performance counters: Intel Corporation Xeon E5/Core i7 Ring to PCI Express Performance Monitor (rev 07)
+7f:13.4 Performance counters: Intel Corporation Xeon E5/Core i7 QuickPath Interconnect Agent Ring Registers (rev 07)
+7f:13.5 Performance counters: Intel Corporation Xeon E5/Core i7 Ring to QuickPath Interconnect Link 0 Performance Monitor (rev 07)
+7f:13.6 System peripheral: Intel Corporation Xeon E5/Core i7 Ring to QuickPath Interconnect Link 1 Performance Monitor (rev 07)
+80:02.0 PCI bridge: Intel Corporation Xeon E5/Core i7 IIO PCI Express Root Port 2a (rev 07)
+80:03.0 PCI bridge: Intel Corporation Xeon E5/Core i7 IIO PCI Express Root Port 3a in PCI Express Mode (rev 07)
+80:05.0 System peripheral: Intel Corporation Xeon E5/Core i7 Address Map, VTd_Misc, System Management (rev 07)
+80:05.2 System peripheral: Intel Corporation Xeon E5/Core i7 Control Status and Global Errors (rev 07)
+80:05.4 PIC: Intel Corporation Xeon E5/Core i7 I/O APIC (rev 07)
+bf:08.0 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link 0 (rev 07)
+bf:08.3 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 0 (rev 07)
+bf:08.4 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 0 (rev 07)
+bf:09.0 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link 1 (rev 07)
+bf:09.3 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 1 (rev 07)
+bf:09.4 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 1 (rev 07)
+bf:0a.0 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 0 (rev 07)
+bf:0a.1 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 1 (rev 07)
+bf:0a.2 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 2 (rev 07)
+bf:0a.3 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 3 (rev 07)
+bf:0b.0 System peripheral: Intel Corporation Xeon E5/Core i7 Interrupt Control Registers (rev 07)
+bf:0b.3 System peripheral: Intel Corporation Xeon E5/Core i7 Semaphore and Scratchpad Configuration Registers (rev 07)
+bf:0c.0 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+bf:0c.1 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+bf:0c.2 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+bf:0c.3 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+bf:0c.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller System Address Decoder 0 (rev 07)
+bf:0c.7 System peripheral: Intel Corporation Xeon E5/Core i7 System Address Decoder (rev 07)
+bf:0d.0 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+bf:0d.1 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+bf:0d.2 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+bf:0d.3 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+bf:0d.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller System Address Decoder 1 (rev 07)
+bf:0e.0 System peripheral: Intel Corporation Xeon E5/Core i7 Processor Home Agent (rev 07)
+bf:0e.1 Performance counters: Intel Corporation Xeon E5/Core i7 Processor Home Agent Performance Monitoring (rev 07)
+bf:0f.0 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Registers (rev 07)
+bf:0f.1 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller RAS Registers (rev 07)
+bf:0f.2 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 0 (rev 07)
+bf:0f.3 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 1 (rev 07)
+bf:0f.4 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 2 (rev 07)
+bf:0f.5 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 3 (rev 07)
+bf:0f.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 4 (rev 07)
+bf:10.0 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 0 (rev 07)
+bf:10.1 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 1 (rev 07)
+bf:10.2 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 0 (rev 07)
+bf:10.3 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 1 (rev 07)
+bf:10.4 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 2 (rev 07)
+bf:10.5 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 3 (rev 07)
+bf:10.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 2 (rev 07)
+bf:10.7 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 3 (rev 07)
+bf:11.0 System peripheral: Intel Corporation Xeon E5/Core i7 DDRIO (rev 07)
+bf:13.0 System peripheral: Intel Corporation Xeon E5/Core i7 R2PCIe (rev 07)
+bf:13.1 Performance counters: Intel Corporation Xeon E5/Core i7 Ring to PCI Express Performance Monitor (rev 07)
+bf:13.4 Performance counters: Intel Corporation Xeon E5/Core i7 QuickPath Interconnect Agent Ring Registers (rev 07)
+bf:13.5 Performance counters: Intel Corporation Xeon E5/Core i7 Ring to QuickPath Interconnect Link 0 Performance Monitor (rev 07)
+bf:13.6 System peripheral: Intel Corporation Xeon E5/Core i7 Ring to QuickPath Interconnect Link 1 Performance Monitor (rev 07)
+c0:02.0 PCI bridge: Intel Corporation Xeon E5/Core i7 IIO PCI Express Root Port 2a (rev 07)
+c0:03.0 PCI bridge: Intel Corporation Xeon E5/Core i7 IIO PCI Express Root Port 3a in PCI Express Mode (rev 07)
+c0:05.0 System peripheral: Intel Corporation Xeon E5/Core i7 Address Map, VTd_Misc, System Management (rev 07)
+c0:05.2 System peripheral: Intel Corporation Xeon E5/Core i7 Control Status and Global Errors (rev 07)
+c0:05.4 PIC: Intel Corporation Xeon E5/Core i7 I/O APIC (rev 07)
+ff:08.0 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link 0 (rev 07)
+ff:08.3 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 0 (rev 07)
+ff:08.4 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 0 (rev 07)
+ff:09.0 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link 1 (rev 07)
+ff:09.3 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 1 (rev 07)
+ff:09.4 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 1 (rev 07)
+ff:0a.0 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 0 (rev 07)
+ff:0a.1 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 1 (rev 07)
+ff:0a.2 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 2 (rev 07)
+ff:0a.3 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 3 (rev 07)
+ff:0b.0 System peripheral: Intel Corporation Xeon E5/Core i7 Interrupt Control Registers (rev 07)
+ff:0b.3 System peripheral: Intel Corporation Xeon E5/Core i7 Semaphore and Scratchpad Configuration Registers (rev 07)
+ff:0c.0 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+ff:0c.1 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+ff:0c.2 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+ff:0c.3 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+ff:0c.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller System Address Decoder 0 (rev 07)
+ff:0c.7 System peripheral: Intel Corporation Xeon E5/Core i7 System Address Decoder (rev 07)
+ff:0d.0 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+ff:0d.1 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+ff:0d.2 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+ff:0d.3 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+ff:0d.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller System Address Decoder 1 (rev 07)
+ff:0e.0 System peripheral: Intel Corporation Xeon E5/Core i7 Processor Home Agent (rev 07)
+ff:0e.1 Performance counters: Intel Corporation Xeon E5/Core i7 Processor Home Agent Performance Monitoring (rev 07)
+ff:0f.0 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Registers (rev 07)
+ff:0f.1 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller RAS Registers (rev 07)
+ff:0f.2 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 0 (rev 07)
+ff:0f.3 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 1 (rev 07)
+ff:0f.4 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 2 (rev 07)
+ff:0f.5 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 3 (rev 07)
+ff:0f.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 4 (rev 07)
+ff:10.0 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 0 (rev 07)
+ff:10.1 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 1 (rev 07)
+ff:10.2 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 0 (rev 07)
+ff:10.3 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 1 (rev 07)
+ff:10.4 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 2 (rev 07)
+ff:10.5 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 3 (rev 07)
+ff:10.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 2 (rev 07)
+ff:10.7 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 3 (rev 07)
+ff:11.0 System peripheral: Intel Corporation Xeon E5/Core i7 DDRIO (rev 07)
+ff:13.0 System peripheral: Intel Corporation Xeon E5/Core i7 R2PCIe (rev 07)
+ff:13.1 Performance counters: Intel Corporation Xeon E5/Core i7 Ring to PCI Express Performance Monitor (rev 07)
+ff:13.4 Performance counters: Intel Corporation Xeon E5/Core i7 QuickPath Interconnect Agent Ring Registers (rev 07)
+ff:13.5 Performance counters: Intel Corporation Xeon E5/Core i7 Ring to QuickPath Interconnect Link 0 Performance Monitor (rev 07)
+ff:13.6 System peripheral: Intel Corporation Xeon E5/Core i7 Ring to QuickPath Interconnect Link 1 Performance Monitor (rev 07)
