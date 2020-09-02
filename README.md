@@ -1,4 +1,4 @@
-# SCALANA
+# SCALANA Usage
 
 Dependence:
 1. GCC-4.8.5
@@ -31,3 +31,29 @@ rm -f ./LOG* ./SAMPLE* ./stat*
 #post-mortem analysis
 7. ./parse.sh ./result SAMPLE*
 ./analyze 2
+
+# Publication
+
+Yuyang Jin, Haojie Wang, Teng Yu, Xiongchao Tang, Torsten Hoefler, Xu Liu and Jidong Zhai. [ScalAna: Automating Scaling Loss Detection with Graph Analysis](). Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis.
+
+# Cite
+
+To cite ScalAna, you can use the following BibTeX entry:
+
+```
+@inproceedings{jin2020scalana,
+  author    = {Yuyang Jin and
+              Haojie Wang and
+              Teng Yu and
+              Xiongchao Tang and
+              Torsten Hoefler and
+              Xu Liu and
+              Jidong Zhai},
+  title     = {ScalAna: Automating Scaling Loss Detection with Graph Analysis},
+  booktitle = {Proceedings of the International Conference for High Performance Computing,
+               Networking, Storage and Analysis, {SC} 2020,
+               November 16-19, 2020},
+  publisher = {{IEEE}},
+  year      = {2020}
+}
+```
