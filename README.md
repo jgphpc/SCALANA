@@ -34,7 +34,7 @@ rm -f ./LOG* ./SAMPLE* ./stat*
 
 # Publication
 
-Yuyang Jin, Haojie Wang, Teng Yu, Xiongchao Tang, Torsten Hoefler, Xu Liu and Jidong Zhai. [ScalAna: Automating Scaling Loss Detection with Graph Analysis](). Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis.
+Yuyang Jin, Haojie Wang, Teng Yu, Xiongchao Tang, Torsten Hoefler, Xu Liu and Jidong Zhai. [ScalAna: Automating Scaling Loss Detection with Graph Analysis](https://arxiv.org/abs/2009.01692). Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis.
 
 # Cite
 
